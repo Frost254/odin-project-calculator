@@ -13,6 +13,7 @@ html {
 
 .calculator {
     margin: 100px auto;
+    background-color: #252525;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 400px;
@@ -23,7 +24,7 @@ html {
     height: 80px;
     border: none;
     background-color: #252525;
-    color: #fff;
+    color: white;
     text-align: right;
     padding-right: 20px;
     padding-left: 10px;
