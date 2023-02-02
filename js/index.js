@@ -36,7 +36,7 @@ function handleOperator(nextOperator) {
   if (firstOperand == null) {
     calculator.firstOperand = inputValue;
   } else if (operator) {
-    const currentValue = firstOperand || 0;
+    const currentValue = firstOperand || 0 || operator;
     const result = performCalculation[operator](currentValue, inputValue);
 
     calculator.displayValue = String(result);
